@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		84AB18B12EE27117009F8339 /* Exceptions for "ClaseCoreData" folder in "ClaseCoreData" target */ = {
+		84AB18B12EE27117009F8339 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		84AB18882EE27116009F8339 /* ClaseCoreData */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				84AB18B12EE27117009F8339 /* Exceptions for "ClaseCoreData" folder in "ClaseCoreData" target */,
-			);
-			path = ClaseCoreData;
-			sourceTree = "<group>";
-		};
-		84AB18A22EE27117009F8339 /* ClaseCoreDataTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClaseCoreDataTests;
-			sourceTree = "<group>";
-		};
-		84AB18AC2EE27117009F8339 /* ClaseCoreDataUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClaseCoreDataUITests;
-			sourceTree = "<group>";
-		};
+		84AB18882EE27116009F8339 /* ClaseCoreData */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (84AB18B12EE27117009F8339 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ClaseCoreData; sourceTree = "<group>"; };
+		84AB18A22EE27117009F8339 /* ClaseCoreDataTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ClaseCoreDataTests; sourceTree = "<group>"; };
+		84AB18AC2EE27117009F8339 /* ClaseCoreDataUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ClaseCoreDataUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +185,7 @@
 				};
 			};
 			buildConfigurationList = 84AB18812EE27116009F8339 /* Build configuration list for PBXProject "ClaseCoreData" */;
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +194,6 @@
 			);
 			mainGroup = 84AB187D2EE27116009F8339;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 84AB18872EE27116009F8339 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
